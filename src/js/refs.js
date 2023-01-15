@@ -1,0 +1,23 @@
+export const refs = {
+    openAuthModalBtn: document.querySelector("[data-auth-modal-open]"),
+    closeAuthModal: document.querySelector("[data-auth-modal-close]"),
+    modalAuth: document.querySelector("[data-auth-modal]"),
+    body: document.querySelector("body"),
+    btnScrollTop: document.querySelector('.js-button-scroll-top'),
+    gallery: document.querySelector('.gallery'),
+    bouncer: document.querySelector('.js-bouncer'),
+    openModalE: document.querySelector(".filmsModal"),
+    modalFilmInfo: document.querySelector(".modal-movie"),
+    backdropFilmModal: document.querySelector('.backdrop'),  
+    closeModalBtn: document.querySelector("modal__close-button"),
+    watchedBtn: document.querySelector(".wached-btn"),
+    queueBtn: document.querySelector(".queue-btn"),
+    inputForm: document.querySelector('.header__form'),
+    openModalBtn: document.querySelector('[data-modal-open]'),
+    closeModalBtn: document.querySelector('[data-modal-close]'),
+    modal: document.querySelector('[data-modal]'),
+    backdrop: document.querySelector('.backdrop__team'),
+    modalTrailer: document.querySelector(".modal-movie"),
+    iframe: document.querySelector(".iframe"),
+}
+
